@@ -2169,7 +2169,7 @@ np.savetxt('test_csv.csv', arr)
 np.savetxt('test_txt.txt', arr)
 ```
 
-![image-20230505101816951](numpy.assets/image-20230505101816951.png)
+![image-20230505101816951](./numpy.assets/image-20230505101816951.png)
 
 ### 取
 
