@@ -11,7 +11,7 @@ Welcome to doc manage's documentation!
    :caption: Contents:
 	
    hello
-
+   numpy.md
 
 Indices and tables
 ==================
