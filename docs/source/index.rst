@@ -12,6 +12,7 @@ Welcome to doc manage's documentation!
 	
    hello
    numpy.md
+   suishouji.md
 
 Indices and tables
 ==================
