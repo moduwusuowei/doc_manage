@@ -7,14 +7,18 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'doc manage'
-copyright = '2023, mdwsw'
-author = 'mdwsw'
-release = '0.0.1'
+copyright = '2023, moduwusuowei'
+author = 'moduwusuowei'
+release = 'V0.0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [  
+    "sphinx.ext.autodoc",  
+    "sphinx.ext.todo",  
+    "sphinx.ext.viewcode",  
+]
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -26,5 +30,6 @@ language = 'zh_CN'
 
 # html_theme = 'alabaster'
 html_static_path = ['_static']
+
 extensions = ['recommonmark','sphinx_markdown_tables']
 html_theme = 'sphinx_rtd_theme'
