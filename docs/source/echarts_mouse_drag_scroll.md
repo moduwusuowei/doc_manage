@@ -52,7 +52,7 @@
 </html>
 ```
 
-![image-20231115193026007](echarts_mouse_drag_scroll.assets/image-20231115193026007.png)
+![image-20231115193026007](./echarts_mouse_drag_scroll.assets/image-20231115193026007.png)
 
 ## 单线鼠标拖动
 
@@ -119,7 +119,7 @@
 </html>
 ```
 
-![image-20231115193008972](echarts_mouse_drag_scroll.assets/image-20231115193008972.png)
+![image-20231115193008972](./echarts_mouse_drag_scroll.assets/image-20231115193008972.png)
 
 
 
@@ -189,7 +189,7 @@
 
 在这个示例中，我们使用dataZoom组件来实现鼠标滚轮联动变化。dataZoom组件包含两个部分：水平方向的xAxis和垂直方向的yAxis。我们在配置项dataZoom中定义了两个inside类型的dataZoom，分别与x轴
 
-![image-20231115193044687](echarts_mouse_drag_scroll.assets/image-20231115193044687.png)
+![image-20231115193044687](./echarts_mouse_drag_scroll.assets/image-20231115193044687.png)
 
 ## 多线鼠标拖动
 
@@ -257,7 +257,7 @@
 
 在这个示例中，我们将dataZoom组件的类型改为slider，并定义了两个slider类型的dataZoom，分别与x轴和y轴关联。通过拖动滑块，可以选择数据的范围，从而实现鼠标拖动联动变化。
 
-![image-20231115193100559](echarts_mouse_drag_scroll.assets/image-20231115193100559.png)
+![image-20231115193100559](./echarts_mouse_drag_scroll.assets/image-20231115193100559.png)
 
 ## 隐藏拖拽的slider
 
@@ -329,7 +329,7 @@
 
 请根据实际需求修改代码，并根据你的图表要求设置相应的show属性。
 
-![image-20231115193116600](echarts_mouse_drag_scroll.assets/image-20231115193116600.png)
+![image-20231115193116600](./echarts_mouse_drag_scroll.assets/image-20231115193116600.png)
 
 ## 关闭动画效果
 
