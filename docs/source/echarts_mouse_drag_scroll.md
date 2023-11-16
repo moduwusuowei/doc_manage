@@ -388,3 +388,43 @@
 在这个示例中，我们将配置项animation设置为false，从而禁用了图表的动画效果。这样，当鼠标移到图表上时，就不会出现闪动的效果。
 
 请根据实际需求修改代码，并根据你的图表要求设置相应的animation配置项。
+
+
+
+```kotlin
+dataZoom:[
+          {
+            type: "slider", // 在底部
+            show: true, // 是否显示 组件。如果设置为 false，不会显示，但是数据过滤的功能还存在。
+            start: 0, // 数据窗口范围的起始百分比。范围是：0 ~ 100。表示 0% ~ 100%。
+            end: 3, // 数据窗口范围的结束百分比。范围是：0 ~ 100。
+            bottom: 25, // 控制滚动条距离底部的位置;
+            /**
+            不指定时，当 dataZoom-slider.orient 为 'horizontal'时，
+            默认控制和 dataZoom 平行的第一个 xAxis。但是不建议使用默认值，建议显式指定。
+            如果是 number 表示控制一个轴，如果是 Array 表示控制多个轴。
+            */
+            xAxisIndex: [0]
+          }
+        ],
+```
+
+
+
+```kotlin
+ // 两种方式只有dataZoom配置项有区别
+  dataZoom:[
+          {
+            type: "inside", // 内嵌入图标中
+            startValue: 0, // 用绝对值的方式定义了窗口数据默认展示的数据开始范围
+            endValue: 3, // 用绝对值的方式定义了窗口数据默认展示的数据终止范围
+            filterMode: 'filter',
+            /**
+            不指定时，当 dataZoom-slider.orient 为 'horizontal'时，
+            默认控制和 dataZoom 平行的第一个 xAxis。但是不建议使用默认值，建议显式指定。
+            如果是 number 表示控制一个轴，如果是 Array 表示控制多个轴。
+            */
+            xAxisIndex: [0]
+          }
+        ],
+```
